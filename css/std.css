@@ -1,0 +1,239 @@
+
+    /*   start     section our team      */
+        
+.our-team {
+    background:url('../img/stdy/sttd.jpg') no-repeat center center fixed;
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    width:100%;
+    min-height:600px;
+}
+.our-team .team{
+    background:rgba(2,2,2,0.5);
+    color:#fff;
+    min-height:600px;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+.our-team h1{
+    margin-bottom:60px;
+}
+.our-team .person{
+    margin-bottom:40px;
+}
+.our-team .person img{
+max-width: 80%;
+   
+}
+    /*   end     section our team      */
+
+
+    /*   start     section price table   */
+    .price-table
+    {
+        width:100%;
+        background:#eee;
+      padding-top:20px;
+      padding-bottom:40px;
+  
+    }
+
+    /*  خاص بلعنوان */
+.price-table h1{
+    margin-bottom:40px;
+}
+/*  خاص بصندوق المحتوى */
+.price-table .price-box{
+   
+    
+    background: rgb(23, 8, 29);
+border-radius:0px  90px  90px 90px ;
+  color:#fff;
+  padding:10px;
+  border:3px solid rgb(255, 0, 0);
+  margin-bottom:15px;
+}
+
+.price-table .price-box .tex{
+    font-size:20px;
+}
+.price-table .price-box h2{
+    margin:5px 0 15px;
+}
+
+.price-table .price-box p{
+ 
+    line-height:100px;
+}
+.price-table .price-box p img{
+     width:230px;
+}
+.price-table .price-box ul{
+    line-height:250%;
+    font-size:18px;
+}
+.price-table .price-box a{
+    margin-bottom:5px;
+}
+
+    /*   end     section price table      */
+
+    /* start      sectin logec  */
+
+    .logec3 {
+        margin-top:20px;
+        width:100%;
+    height: 300px; 
+    font-size:20px; 
+    }
+    .logec3 .c img {
+        margin-right:20px;
+        width:300px;
+        height: 200px; 
+        border-radius:    250px 0  250px  0;
+        border: 6px solid #000
+    }
+    
+    .logec3 .c{
+        float: right;
+        width:35%;
+     
+        margin-right:80px;
+    
+    }
+    .logec3 .cc{
+        text-align: center;
+        float: left;
+    width:50%;
+    }
+    .logec3 .cc img {
+        margin-right:20px;
+        width:300px;
+        height: 200px; 
+        border-radius:    0 250px  0  250px;
+        border: 6px solid #000
+    }
+   
+    
+            /*  start  logec4 */
+            .logec4 {
+               padding-bottom: 10%;
+                width:100%;
+            height: 200px; 
+            font-size:20px; 
+            }
+         
+            .logec4 .f{
+               margin-bottom: 30px;
+                margin-left:40px;
+                text-align: center;
+                 float: left;
+            width:40%;
+            }
+            
+            .logec4 .ff{
+                margin-bottom: 30px;
+                float: right;
+                margin-right:120px;
+                width:30%;
+                text-align: center;
+            }
+              
+            .logec4  .f  a input[type="button"]{
+            background:rgb(0, 26, 255);
+            margin-left:30%;
+            text-align: center;
+            width:200px;
+            height: 50px;
+            color:#000;
+            border-radius: 50px;
+            }
+             
+            .logec4  .ff  a input[type="button"]{
+                background:rgb(104, 0, 202);
+                margin-right:80%;
+                text-align: center;
+                width:200px;
+                height: 50px;
+                color:#000;
+                border-radius: 50px;
+                
+                }
+
+                .parback{
+
+                    background:url('../img/stdy/imggg4.jpeg') no-repeat center  center fixed;
+                    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+                    -webkit-background-size:cover;
+                    -moz-background-size:cover;
+                    -o-background-size:cover;
+                    background-size:cover;
+                    min-height:600px;
+                }
+                
+/*  خاص بصندوق المحتوى */
+.parback .price-box1{
+   
+    
+    background: rgb(49, 39, 39);
+    opacity: 0.8;
+border-radius:90px  90px 90px 90px;
+  color:rgb(0, 225, 255);
+  padding:10px;
+  border:3px solid rgb(0, 252, 168);
+  margin-bottom:15px;
+}
+
+.parback .price-box1 .tex{
+    font-size:20px;
+}
+.parback .price-box1 h2{
+    margin:5px 0 15px;
+}
+
+.parback .price-box1 p{
+ 
+    line-height:100px;
+}
+.parback .price-box1 p img{
+     width:330px;
+}
+.parback .price-box1 ul{
+    line-height:250%;
+    font-size:18px;
+}
+.parback.price-box1 a{
+    margin-bottom:5px;
+}
+
+
+
+/*  start  logec1 */
+.logec1 {
+    margin-top:20px;
+    width:100%;
+height: 800px; 
+font-size:20px; 
+}
+.logec1 .a img {
+  
+    width:100%;
+    height: 800px; 
+    border-radius: 250px 250px  0 0;
+    border: 6px solid #000
+}
+
+
+
+.logec1 .aa  a input[type="button"]{
+background:rgb(247, 111, 0);
+width:150px;
+height: 50px;
+color:#000;
+border-radius: 50px;
+}
+  /*  end  logec1 */

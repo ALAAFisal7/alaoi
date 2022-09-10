@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+<meta charset="UTF-8">
+<title> mecrocoft offes</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/micro.css">
+    </head>
+    <body>
+          <!--start nnavbar-->
+                
+          <nav class="navbar navbar-inverse navbar-default  navbar-fixed-top  " role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                 <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+                <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">ِتعلم<span>.معناء</span></a>
+                </div>
+              
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav ">
+                    <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="login.html">تسجيل الدخول</a></li>
+                    <li><a href="description.html">وصف المواقع</a></li>
+                    <li><a href="stdy.html">تعلم</a></li>
+                    <li><a href="book.html"> المكاتب </a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">المواقع <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">المكاتب</a></li>
+                        <li><a href="#">مواقع تطوير الذات</a></li>
+                        <li><a href=" stdy.html #se">موقع تعليمية</a></li>
+                        <li class="divider"></li>
+                        <li><a href="login.html">للاشتراك</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.html #loginlog">للتواصل مع الفريق </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left " role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="بحث">
+                    </div>
+                    <button type="submit" class="btn btn-default">بحث</button>
+                  </form>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+             </div> 
+            </nav>
+
+<!--end navbar -->
+        <center>
+            <div class="examples">
+                
+               
+            <div class="titl" id="tit">
+             <hedaer class="he">
+                    <section class="sec">
+
+                            <div class="d3">  </div>
+
+
+                            <div class="user">
+                                    <div class="imgg" id="phot">
+                                  <img src="img/team/tem.jpg" id="phot" alt="person">
+                                     </div>
+
+                                        <div class="d4"  id="nameid">
+                                         
+                                        </div>
+                                    
+                          </div>
+                         <h1 >تعلم.<span style="color:#ff0;">معناء</span></h1>   
+                            
+
+                      </section>
+                      
+             </hedaer> 
+            </div>
+        </div>
+    </center>
+            <br>
+            <p class="texttitle"  id="pp">مرحبا بكم في موقع تعلم معناء</p>
+        <br>
+       
+        <center>
+          
+
+
+        <form class=" formunput" id="for" name="info"  method="POST" action="start.php">
+            <div class="format ">
+                <legend style="color:#ff0;">  تسجيل بيانات المشترك</legend>
+      
+                
+                    <!-- maxlength=  اقصى عدد للاحرف المدخلة
+                    required   تجعل الحقل اجباري ادخال البيانات اليه
+                    pattern="[A-z]{15}"   معناها اكتب الاسم بحروف كبيره من الa الى z بشرط ان تكون عدد الاحرف 15
+                    -->
+                            
+                    <input type="text" name="name"  id="input1" class="inpp text-center "  value=""  maxlength="20" placeholder="الاسم" required>
+               <br>
+               <input type="number" name="numberphon"  id="input1" class="inpp text-center"  value=""  maxlength="20" placeholder=" رقم الهاتف" required>
+                 
+                  <br>
+                    <input type="text" name="cyte" class="inpp text-center" id="input2"  maxlength="7"  value=""   placeholder=" الدولة"    required>
+               
+                    <br>
+                  
+                      <input type="password" name="password"  class="inpp text-center"  id="input3"  value=""  placeholder="كلمة السر" maxlength="8" required>
+               <br>
+               
+                                
+                        <input type="email" name="email"  class="inpp text-center"  value="" id="input4"  placeholder="البريد الالكتروني" required>
+                     
+                       
+                        
+                   <br>
+                   
+                
+                               
+                            <input type="reset" class="ok" value=" Define data insert">
+                            <br>
+                            
+                            <input type="submit"  class="okk"   id="submit"  onclick=" return farfar()"  value="check the data"> 
+                            
+                           <br>
+
+                            <input type="button" class="ok" id="go" ondblclick="information()"  onclick=" return farfar()" value="Add to the data to another page">
+                            
+                         
+            
+                          </div>
+      
+        </form>
+   
+   <!--   <center>
+    <div class="show">
+
+    <div  id="d" class="di"> </div>
+    <div id="dd" class="di"></div>
+    <div id="ddd" class="di"></div>
+    <div id="dddd" class="di"></div>
+
+    </div>
+    </center>
+-->  
+    
+       
+       <!-- start  section footer-->
+       <!-- عباره عن ثلاثة اعمده  العمود الاول الروابط الخاصه بلموقع وتحته يكون المواقع الاجتماعيه-->
+       <!--  العمود الثاني فيه اجزاء من المقالات او اخر المقالات الموجوده في لبموقع -->
+       <!-- العمود الثالث يكون فيه اعمالناء او صور معينه -->
+       <section class="footer">
+            <div class="container">
+              <div class="row">
+                  <div class=" col-lg-4 col-md-6">
+                     <h3> sitemap</h3>
+                     <ul class="list-unstyled three-columns">
+                       <li>Home</li>
+                       <li>About</li>
+                       <li>Company</li>
+                       <li>Code</li>
+                       <li>Design</li>
+                       <li>Host</li>
+                       <li>Solution</li>
+                       <li>Sitemap</li>
+                       <li>Conact</li>
+                     </ul>
+                     <ul class="list-unstyled social-list">
+                      <li>  <i class=" fa fa-paypal fa-2x "></i></li>
+                      <li> <i class=" fa fa-thumbs-up fa-2x "></i> </li>
+                      <li><i class=" fa fa-android fa-2x fa-spin"></i></li>
+                      <li> <i class=" fa fa-drupal fa-2x fa-spin"></i> </li>
+                      <li><i class=" fa fa-html5 fa-2x"></i></li>
+                      <li> <i class=" fa fa-whatsapp fa-2x"></i> </li>
+                    </ul>
+               </div>
+
+               <div class=" col-lg-4 col-md-6">
+                 <h3>litet Articles</h3>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                      <i class=" fa fa-heartbeat fa-5x"></i>
+                    </a>
+                 <div class="media-body">
+                      <h4 class="media-heading">
+                        البرمجه 
+                      </h4>
+                    من اهم تخصصات المطورين وهي تعطي لون جميل لتطبيقاتك
+                 </div>
+                 </div>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                     <i class=" fa fa-btc fa-5x "></i>
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        التحليل
+                      </h4>
+                     يحلل ويستنتج النتاج والحلول والمشاكل بشكل جيد
+                    </div>
+                 </div>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                      <i class=" fa fa-linux fa-5x"></i>
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      التصميم
+                      </h4>
+                      من اهم التخصصات في علم التكنلوجيا ويعطي جمال لاعمالك
+                    </div>
+                 </div>
+
+                </div>
+                   <div class=" col-lg-4">
+                    <h3> our Awesome work</h3>
+                    <!-- class="img-thumbnail "   الكلاس التالي يخلي الصورة مصغره -->
+                    <img  class="img-thumbnail"   src="img/img-footer/5.jpg" alt="photo size ">
+                <img class="img-thumbnail" src="img/img-footer/6.jpg" alt="photo size ">
+                <img class="img-thumbnail" src="img/img-footer/7.jpg" alt="photo size ">
+                <img  class="img-thumbnail" src="img/img-footer/8.jpg" alt="photo size ">
+                <img  class="img-thumbnail"   src="img/img-footer/9.jpg" alt="photo size ">
+                <img class="img-thumbnail" src="img/img-footer/10.jpg" alt="photo size ">
+                <img class="img-thumbnail" src="img/img-footer/11.jpg" alt="photo size ">
+                <img  class="img-thumbnail" src="img/img-footer/12.jpg" alt="photo size ">
+                     </div>
+              </div>
+            </div>
+            <div class="copyright text-center">copyright &copy; 2021 <span>your tamplate Name</span>.ALA</div>
+          </section>
+          <!-- end  section  footer-->
+ 
+    <script  type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/mecrocoft.js"></script>
+
+    </body>
+</html>

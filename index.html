@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <!--  تستخدم لمتصفح انترنت اكسبلولار -->
+     <meta http-equiv="X-UA-comatible" content="IE=edge">
+     <!--  خاص بل فيرسة موبايل لكي يعمل الموقع على الموبايل -->
+     <meta name=" viewport" content="width=device-width, initial-scale=1">
+     <title>Bootstrap</title>
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+     <script src="js/html5shiv.min.js"></script>
+     <script src="js/respond.min.js"></script>
+      </head>
+<body>
+
+
+
+  <!--start nnavbar-->
+                
+                <nav class="navbar navbar-inverse navbar-default  navbar-fixed-top  " role="navigation">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                   <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+                  <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ِتعلم<span>.معناء</span></a>
+                  </div>
+                
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav ">
+                      <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+                      <li><a href="login.html">تسجيل الدخول</a></li>
+                      <li><a href="description.html">وصف المواقع</a></li>
+                      <li><a href="stdy.html">تعلم</a></li>
+                      <li><a href="book.html"> المكاتب </a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">المواقع <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">المكاتب</a></li>
+                          <li><a href="#">مواقع تطوير الذات</a></li>
+                          <li><a href="stdy.html #se">موقع تعليمية</a></li>
+                          <li class="divider"></li>
+                          <li><a href="login.html">للاشتراك</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#loginlog">للتواصل مع الفريق </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="navbar-form navbar-left " role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="بحث">
+                      </div>
+                      <button type="submit" class="btn btn-default">بحث</button>
+                    </form>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+               </div> 
+              </nav>
+
+  <!--end navbar -->
+
+ <!--  start carousel indicators-->
+
+                   <div id="carosal" class=" carousel slide" data-ride="carousel">
+                    <!--indicators-->
+                    <ol class="carousel-indicators  hidden-xs ">
+                      <li data-target="#carosal" data-slide-to="0" class="active"></li>
+                      <li data-target="#carosal" data-slide-to="1" ></li>
+                      <li data-target="#carosal" data-slide-to="2" ></li>
+                     
+                    </ol>
+                    <!--slide show-->
+
+
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img  class="im" src="img/11.jpeg" alt="first">
+                        <div class="carousel-caption hidden-xs ">
+                        <h1>ألبرمجه</h1>
+                        <p class="lead">هناك اتلعديد من المواقع المتخصصه في البرمجه من حيث الاكواد والتصميم والتحميل المفتوع والاكواد القابله على التعديل
+                          </p>
+                          <div class="btn btn-primary">read more</div>
+                          
+                        </div>
+                      </div>
+                  
+                    <div class="item ">
+                      <img  class="im" src="img/12.jpeg" alt="hr">
+                      <div class="carousel-caption hidden-xs">
+                        <h1> التصميم</h1>
+                        <p class="lead">وكذالك التصميم المتخصص بلجرافكس وتصميم المواقه والصفحات البرمجيه  وتصميم الشعارات والفيديوهات وغيرهاء</p> 
+                           <div class="btn btn-primary">read more</div>
+                     
+                      </div>
+                    
+                    </div>
+                    
+                    <div class="item ">
+                      <img  class="im" src="img/13.jpeg" alt="hh">
+                      <div class="carousel-caption hidden-xs">
+                        <h1> التطوير الذاتي</h1>
+                        <p class="lead"></p>هناك مواقع لتطوير الذاتي في عدت تخصصات كتطوير مهارات التصميم وتطوير للمقابلات وتطوير في مهاراتك </p>
+                     <div class="btn btn-primary">read more</div>
+                      
+                    </div>
+                      
+                    </div>
+                  
+                  </div>
+                  <!--control-->
+                  <a class="left carousel-control" href="#carosal" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carosal" role="button" data-slide="next">
+                    <span class="glyphicon  glyphicon-chevron-right"></span>
+                  </a>
+                   </div>
+        <!--end carousel indicators-->
+
+          <!-- startg section -->
+
+      <section class="about text-center">
+         <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+        <div class="container">
+         <h1>موقع ويب خاص  بتعلم في  <span>تكنلوجياء الرقمية</span></h1>
+         <p class="lead">يحتوي مجموعه من المواقع والمكاتب <strong>لكيفية التعلم في </strong> تكنلوجياء المعلومات</p>
+          </div>
+      </section>
+
+      <!-- end section -->
+
+
+      <!-- start    section features    المميزات الخاصه بلموقع او المنتج  -->
+      <section class="features text-center">
+         <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+          <div class="container"> 
+              <h1>من المميزات</h1>
+              <!-- row  قمنا بعمل روا لاننا سوف نحط اربعة مميزات وسوف نقوم بتقسيمهم -->
+            <div class="row">
+
+                  <div class="col-lg-3 col-md-6">
+                    <div class="feat">   <i class="fa fa-pied-piper-alt fa-5x "></i>
+                    <h3> مواقع للبرمجه</h3>
+                    <p class="lead">  هاذه الموتقع تتخص قي شرح وتفسير الاكواد البرمجيه وكيفية التعامل معاها بشكل مناسب </p>
+                    </div>  
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                      <div class="feat">   <i class="fa fa-leanpub fa-5x"></i>
+                      <h3> المكاتب</h3>
+                      <p class="lead">  المكاتب هاذه في جميع تخصصات الكمبيوتر في شتى المجالات مكاتب عديدة </p>
+                      </div>  
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feat">   <i class="fa fa-weibo fa-5x "></i>
+                        <h3>تطوير الذات</h3>
+                        <p class="lead">  مواقع لتطوير الذات وكيفية التعامل مع الحاسوب بشتى المجالات وتنميه قدراتك </p>
+                        </div>  
+                      </div>
+
+                      <div class="col-lg-3 col-md-6">
+                          <div class="feat">   <i class="fa fa-forumbee fa-5x"></i>
+                          <h3>التخصصات </h3>
+                          <p class="lead">   فهم التخصصات والفائده منها بشكل عام وكيفيه البدى بهاء</p>
+                          </div>  
+                        </div>
+            </div>
+           </div>
+        </section>
+      <!-- end   section features  -->
+
+
+       <!-- start   section testimonials    -->
+            <!--  اراى الناس عن الموقع  وعن خدماتا الموقع -->
+
+            <section class="testimonials text-center">
+
+              <!-- start container-->
+
+              <div class="container">
+
+              <h1>  ماذا يتكلمون عن موقعنى ?</h1>
+
+              <!-- start  testimonials carousel-->
+
+              <div id="testmon" class=" carousel slide" data-ride="carousel">
+               
+                  <!--slide show-->
+
+                  <div class="carousel-inner">
+
+                      <div class="item active ">
+                        <p class="lead"> هاذه الموقعه يقوم بتفصيل واعطاى مواقع مهمه في جميعالتخصصات في التكنلوجياء الرقميه <br>وكيفية التعامل معهاء ومن اين تبدى ومواقع لتحميال التطبيقات المهمه في كل تخصص تريده
+                          </p>
+                          <span> Ala Alshoga</span>
+                      </div>
+                  
+                    <div class="item ">
+                       <p class="lead"> يعطيك بعض المكاتب المهمه في التخصصات البرمجيه والامنيه <br> مكاتب ومواقع لتحميل الكتب المدفوعه بشكل مناسب وكيفية
+                         تحميلها ومن اين واعطاء نصاح اخرى
+                       </p>
+                          <span>Amal Ahmed</span>
+                      </div>
+                    
+                    <div class="item ">
+                        <p class="lead">يعطيك كل ما تتمناه وانت في تخصص الكمبيسوتر <br>اتكون لك فائدة وتستطيع التعامل مع تخصصاتك ومجالاتك العلميه
+                          ومن اين تبدى وكيف  تبدى 
+                        </p>
+                        <span>Hnan Alshrapy</span>
+                    </div>
+  
+                    <div class="item ">
+                       <p class="lead">يعطيك هاذه الموقع افضل المواقع التعليميه وهنلك مواقع في بعض التخصصات  تطبيقات اي تستطيع التطبي في الموقع<br> ومعرفت ماذا ويعطي مواقع لتتطبيقات الخاصه بكل تخصص
+
+                       </p>
+                          <span>Amged Alshray</span>
+                    </div>
+  
+                  </div>
+           <!--indicators-->
+              <ol class="carousel-indicators">
+                  <li data-target="#testmon" data-slide-to="0" class="active">
+                    <img src="img/testimonials/testimonials-1.jpg" alt="ala">
+                  </li>
+                  <li data-target="#testmon" data-slide-to="1" >
+                      <img src="img/testimonials/testimonials-2.jpg" alt="amal">
+                  </li>
+                  <li data-target="#testmon" data-slide-to="2" >
+                      <img src="img/testimonials/testimonials-3.jpg" alt="hnan">
+                  </li>
+                  <li data-target="#testmon" data-slide-to="3" >
+                      <img src="img/testimonials/testimonials-4.jpg" alt="amged">
+                  </li>
+                </ol>
+                 </div>
+
+        <!-- end testimonials carousel-->
+           </div>
+
+       <!-- end container-->
+
+            </section>
+
+        <!-- end   section testimonials  -->
+
+
+
+
+        <!-- start   section Our team   -->
+             <section class="our-team text-center">
+             
+               <div class="team">
+
+                   <div class="container">
+                   <h1> الفريق الخاص في  التعامل مع الزوار</h1>
+                   <div class="row">
+                     
+                      <div class="col-lg-3 col-sm-6">
+                        <div class="person">
+                          <img  class="img-circle" src="img/team/team-1.jpg" als="crasd">
+                          <h3> علاء الشجاع</h3>
+                          <p> متخصص في مجالات الويب  وقواعد البيانات والشبكات  وكذالك في  تحليل قواعد البيانات </p>
+                          <!-- ايقونات فونت اوسون -->
+                          <!--square  لعمل اطار مربع على الايقونه -->
+                          <!--fa-lg  لتنسيق احجام الايقونات -->
+                          <!-- 2x  تابع احجام الايقونات -->
+                          <!--spin  لعمل حركه دائريه للايقونه -->
+                          <i class="fa fa-google-plus-square fa-lg " ></i>
+                          <i class="fa fa-empire fa-lg fa-spin"></i>
+                          <i class="fa fa-qq fa-lg "></i>
+                          <i class="fa fa-rebel fa-lg fa-spin"></i>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-sm-6">
+                          <div class="person">
+                              <img class="img-circle"  src="img/team/team-2.jpg" als="anal">
+                              <h3>امجد الشراعي </h3>
+                              <P> متخصص في مجال البرمجيات بشكل عام ومتخصص في التصميمات والتحليل وكذالج في تطبيقات الاندرويد</P>
+                            <!-- ايقونات فونت اوسون -->
+                          <!--square  لعمل اطار مربع على الايقونه -->
+                          <!--fa-lg  لتنسيق احجام الايقونات -->
+                          <!-- fa-2x  تابع احجام الايقونات -->
+                          <!--fa-spin  لعمل حركه دائريه للايقونه -->
+                          <i class="fa fa-google-plus-square fa-lg"></i>
+                          <i class="fa fa-empire fa-lg fa-spin"></i>
+                          <i class="fa fa-qq fa-lg "></i>
+                          <i class="fa fa-rebel fa-lg fa-spin"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img  class="img-circle" src="img/team/team-3.jpg" als="ala">
+                                <h3> زيدان المقطري </h3>
+                                <P> ومتخصص في الخوارزميات متخصص  في امن المعلومات والبيانات ومتخصص في   تحليل الانظمة</P>
+                             <!-- ايقونات فونت اوسون -->
+                          <!--square  لعمل اطار مربع على الايقونه -->
+                          <!--fa-lg  لتنسيق احجام الايقونات -->
+                          <!-- 2x  تابع احجام الايقونات -->
+                          <!--spin  لعمل حركه دائريه للايقونه -->
+                          <i class="fa fa-google-plus-square fa-lg " ></i>
+                          <i class="fa fa-empire fa-lg fa-spin"></i>
+                          <i class="fa fa-qq fa-lg "></i>
+                          <i class="fa fa-rebel fa-lg fa-spin"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-lg-3 col-sm-6">
+                              <div class="person">
+                                  <img class="img-circle" src="img/team/team-4.jpg" als="goana">
+                                  <h3> ياسين  المهيوبي</h3>
+                                  <P>متخصص في الذكاء الاصطناعي وفي مجال التشفير وفي هيكلة البيانات وتحليل الخوارزميات</P>
+                                <!-- ايقونات فونت اوسون -->
+                          <!--square  لعمل اطار مربع على الايقونه -->
+                          <!--fa-lg  لتنسيق احجام الايقونات -->
+                          <!-- 2x  تابع احجام الايقونات -->
+                          <!--spin  لعمل حركه دائريه للايقونه -->
+                          <i class="fa fa-google-plus-square fa-lg " ></i>
+                          <i class="fa fa-empire fa-lg fa-spin"></i>
+                          <i class="fa fa-qq fa-lg "></i>
+                          <i class="fa fa-rebel fa-lg fa-spin"></i>
+                                </div>
+                            </div>
+
+                    </div>
+
+                   </div>
+
+               </div>
+              </div>
+             </section>
+
+
+        <!-- end   section Our team     -->
+
+        <!--start section subscribe-->
+        <!-- subscribe   للااشتراك في موقعي او الاشتراك في الشركه التي في الموقع -->
+        <section class="subscribe text-center">
+          <div class="container">
+            <h1> المعلومات المتجدد في تخصصات الكمبيوتر</h1>
+            <p class="lead">سجل ايميلك لكل يصلك كل جديد من المعلومات على ايميلك</p>
+            <form class="form-inline">
+              <!--input-lg and btn-lg  لتكبير حقل الادخال  و الزر-->
+              <input  class="form-control input-lg" type="text"  placeholder="write  your Email">
+              <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i> اشتراك</button>
+            </form>
+          </div>
+        </section>
+        <!--end section subscribe-->
+
+
+        <!--sratr section statistics-->
+        <!--statistics    الاحصائيات الخاصه بلموقع او الشركه -->
+        
+        <section class="statistics text-center">
+         <div class="data">
+          <div class="container">
+             <h1>نبذه عن الزوار وعدد المكواقع والمكاتب في موقعناء</h1>
+             <div class="row">
+<h4>الفريق كذالك يساعد  الناس في مشاريعهم  والاستفسار والمساعده في شرح الاشياء التي يريدها  الزار وكذالك نحن نعطي اشيى جاهزه باسعار معينه
+              وكذالك هناك كادر من  الدكاتره والمعيدين والطلاب المتميزين للمساعد في التعلم ونشر العلم</h4>
+<div class=" col-lg-3 col-sm-6">
+                <div class="stats">
+                  <i class="fa fa-users fa-5x"></i>
+                  <p>450</p>
+                  <span>الزوار الذين زارو الموقع</span>
+                </div>
+              </div>
+
+              <div class=" col-lg-3 col-sm-6">
+                  <div class="stats">
+                      <i class="fa fa-comments fa-5x"></i>
+                      <p>900</p>
+                      <span>المواقع التعليمية</span>
+                  </div>
+                </div>
+
+              <div class=" col-lg-3 col-sm-6">
+                  <div class="stats">
+                      <i class="fa fa-suitcase fa-5x"></i>
+                      <p>70</p>
+                      <span> المكاتب والمجلات</span>
+                  </div>
+                  </div>
+
+              <div class=" col-lg-3 col-sm-6">
+                  <div class="stats">
+                      <i class="fa fa-support fa-5x"></i>
+                      <p>17,000</p>
+                      <span>المشاريع المنجزه</span>
+                  </div>
+                </div>
+
+             </div>
+          </div>
+        </div>
+        </section>
+
+
+        <!--end section statistics-->
+
+        
+        <!--start section Our-Skills-->
+        <!--  النسبه المئويه للمهارات المعينه -->
+
+        <section class="our-Skills ">
+            <div class="container">
+              <h1 class="text-center"> مهارات </h1>
+              <div class="row">
+               
+                <!-- Start progress skills-->
+                
+                <div class="col-md-5">
+                   <div class="skill-progress">
+                     <div class="progress">
+                       <!--bar-success   لون  الشريط بار -->
+                       <!-- role="progressbar"   خاص بلشريط-->
+                       <!-- aria   تحدد القيمه الخاصه بلشريط يعني تبداء من كام تنتهي في حد كم  هو واقف فين الان -->
+                       <!-- aria-valuenow="80" القيمه القاصه بلشريط -->
+                       <!--    aria-valuenow="80"  لاضافه القيمه الصحيحه لتكون مساويه لل الشريط-->
+                       <!--progress-bar-striped   لعمل اشرطه على الشريط-->
+                       <!-- active لجعل الشريط متحرك -->
+                       <div class="progress-bar progress-bar-success   " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                       جميع مجالات الويب بشكل كامل ومجالات الاتصميم
+                       </div>
+                     </div>
+
+                   <div class="progress">
+                     <div class="progress-bar progress-bar-danger  progress-bar-striped  active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                      مجالات البرمجه من حيث الغات والخوارزميات
+                      </div>
+                    </div>
+
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-warning  progress-bar-striped  " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        تحاليل وتصميمك قواعد البيانات
+                        </div>
+                      </div>
+
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped  active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                           محالات التطوير الذاتي والتقني 
+                          </div>
+                        </div>  
+
+
+                   </div>
+                  </div>
+
+
+                 <!-- End progress skills-->
+
+
+                  <!--start Team Info-->
+
+                 <div class="col-md-6 col-ms-offset-1">
+                      <div class="skill-info">
+                        <h3>  حول الفريق</h3>
+                        <p class="lead"> الفريق يمتلك كادر تعليمي وقد استفاد من المعلومات التي يمتلكها من المواقع والمكاتب التي سوف نعطيها  لمن يريد التعلم ونشر العلم </p>
+                      <button type="button" class="btn btn-primary"> لتحدث مع   الفريق</button>
+                      </div>
+                   </div>
+
+                  <!--End Team Info-->
+ 
+              </div>
+            </div>
+        </section>
+
+
+
+        <!--end section statistics-->
+
+        
+        <!--start section Countact us-->
+        <section class="Contact-us  text-center" id="loginlog">
+           <div class="filds">
+              <div class="container">
+                <div class="row">
+                <i class=" fa fa-headphones fa-5x"></i>
+                <h1>ما هي رسالتك لناء</h1>
+                <h3>  للاستفسار وطلبي المساعدة اشترك بلموقع ومن ثم ارسل طلبك</h3>
+                <p class="lead">لاتترد في التواصل بنا </p>
+
+                  <!--start contuct form-->
+
+                  <form role="form" method="post" action="person.php">
+                    <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control  input-lg " name="name1" placeholder="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"  name="email1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"  name="phon1" placeholder="cell phone">
+                    </div>
+                  </div>
+
+                    <div clas="col-md-6">
+                      <div class="form-group">
+                        <textarea class="form-control input-lg" name="mesg" placeholder="your masseage"></textarea>
+                      </div>
+                      <button type="submit" class=" btn btn-danger btn-lg btn-block">ارسال الرساله </button>
+                    </div>
+                  </form>
+                </div>
+                   <!--end contuct form-->
+              </div>
+            </div>
+        </section>
+
+
+        <!--end section Countact us-->
+
+
+
+     
+
+
+       
+       <!-- start  section footer-->
+       <!-- عباره عن ثلاثة اعمده  العمود الاول الروابط الخاصه بلموقع وتحته يكون المواقع الاجتماعيه-->
+       <!--  العمود الثاني فيه اجزاء من المقالات او اخر المقالات الموجوده في لبموقع -->
+       <!-- العمود الثالث يكون فيه اعمالناء او صور معينه -->
+       <section class="footer">
+         <div class="container">
+           <div class="row">
+               <div class=" col-lg-4 col-md-6">
+                  <h3> sitemap</h3>
+                  <ul class="list-unstyled three-columns">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Company</li>
+                    <li>Code</li>
+                    <li>Design</li>
+                    <li>Host</li>
+                    <li>Solution</li>
+                    <li>Sitemap</li>
+                    <li>Conact</li>
+                  </ul>
+                  <ul class="list-unstyled social-list">
+                      <li>  <i class=" fa fa-paypal fa-2x "></i></li>
+                      <li> <i class=" fa fa-thumbs-up fa-2x "></i> </li>
+                      <li><i class=" fa fa-android fa-2x fa-spin"></i></li>
+                      <li> <i class=" fa fa-drupal fa-2x fa-spin"></i> </li>
+                      <li><i class=" fa fa-html5 fa-2x"></i></li>
+                      <li> <i class=" fa fa-whatsapp fa-2x"></i> </li>
+                    </ul>
+               </div>
+
+               <div class=" col-lg-4 col-md-6">
+                 <h3>litet Articles</h3>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                      <i class=" fa fa-heartbeat fa-5x"></i>
+                    </a>
+                 <div class="media-body">
+                      <h4 class="media-heading">
+                        البرمجه 
+                      </h4>
+                    من اهم تخصصات المطورين وهي تعطي لون جميل لتطبيقاتك
+                 </div>
+                 </div>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                     <i class=" fa fa-btc fa-5x "></i>
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        التحليل
+                      </h4>
+                     يحلل ويستنتج النتاج والحلول والمشاكل بشكل جيد
+                    </div>
+                 </div>
+
+                 <div class="media">
+                    <a class=" pull-left" href="#">
+                      <i class=" fa fa-linux fa-5x"></i>
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      التصميم
+                      </h4>
+                      من اهم التخصصات في علم التكنلوجيا ويعطي جمال لاعمالك
+                    </div>
+                 </div>
+
+                </div>
+
+                <div class=" col-lg-4">
+                 <h3> our Awesome work</h3>
+                 <!-- class="img-thumbnail "   الكلاس التالي يخلي الصورة مصغره -->
+                 <img  class="img-thumbnail"   src="img/img-footer/5.jpg" alt="photo size ">
+                 <img class="img-thumbnail" src="img/img-footer/6.jpg" alt="photo size ">
+                 <img class="img-thumbnail" src="img/img-footer/7.jpg" alt="photo size ">
+                 <img  class="img-thumbnail" src="img/img-footer/8.jpg" alt="photo size ">
+                 <img  class="img-thumbnail"   src="img/img-footer/9.jpg" alt="photo size ">
+                 <img class="img-thumbnail" src="img/img-footer/10.jpg" alt="photo size ">
+                 <img class="img-thumbnail" src="img/img-footer/11.jpg" alt="photo size ">
+                 <img  class="img-thumbnail" src="img/img-footer/12.jpg" alt="photo size ">
+                  </div>
+           </div>
+         </div>
+         <div class="copyright text-center">copyright &copy; 2021 <span>your tamplate Name</span>.ALA</div>
+       </section>
+       <!-- end  section  footer-->
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

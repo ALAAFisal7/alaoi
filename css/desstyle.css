@@ -1,0 +1,604 @@
+
+.cotin{
+    margin-top:30px;
+    margin-bottom:10px;
+    width: 100%;
+    
+
+}
+
+ .pho {
+
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+   height:400px;
+
+    width:100%;
+
+}
+  /*  start  logec1 */
+.logec1 {
+    margin-top:20px;
+    width:100%;
+height: 400px; 
+font-size:20px; 
+}
+.logec1 .a img {
+    margin-right:20px;
+    width:200px;
+    height: 200px; 
+    border-radius: 250px 250px  0 0;
+    border: 6px solid #000
+}
+
+.logec1 .a{
+
+    margin-right:80px;
+float: right;
+width:35%;
+}
+.logec1 .aa{
+    float: left;
+    text-align: center;
+    width:50%;
+}
+.logec1 .aa  a input[type="button"]{
+background:rgb(247, 111, 0);
+width:150px;
+height: 50px;
+color:#000;
+border-radius: 50px;
+
+}
+  /*  end  logec1 */
+
+    /*  start  logec2 */
+    .logec2 {
+        margin-top:20px;
+        width:100%;
+    height: 400px; 
+    font-size:20px; 
+    }
+    .logec2 .b img {
+        margin-right:20px;
+        width:200px;
+        height: 200px; 
+        border-radius:   0 0  250px 250px;
+        border: 6px solid #000
+    }
+    
+    .logec2 .b{
+    
+        margin-right:80px;
+    float: left;
+    width:50%;
+    }
+    .logec2 .bb{
+        float: right;
+        text-align: center;
+        width:35%;
+    }
+    .logec2 .bb  a input[type="button"]{
+    background:rgb(247, 111, 0);
+    width:150px;
+    height: 50px;
+    color:#000;
+    border-radius: 50px;
+    
+    }
+
+
+
+    /* start log */
+    /*n  المواقع التي داخل الصوره */
+
+.log {
+
+    background:url('../img/descrip/vbg.jpg') no-repeat center center fixed;
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    text-align: center;
+    width:100%;
+border-radius: 250px 250px  0 0;
+    border: 6px solid #000;
+    margin-top:20px;
+font-size:15px;
+height: 1900px; 
+
+}
+ /*   start     section price table   */
+  .log .price-table
+ {
+     width:100%;
+     
+ 
+
+
+ }
+ /*  خاص بلعنوان */
+.log .price-table h1{
+ margin-bottom:20px;
+}
+/*  خاص بصندوق المحتوى */
+
+
+.log .price-table .price-box{
+    margin-top:30px;
+    background: rgb(208, 255, 0);
+    opacity: 0.7;
+border-radius:0px  90px  90px 90px ;
+color:rgb(0, 0, 0);
+height: 400px; 
+margin-bottom: 30px;
+}
+.log .price-table .price-box:hover{
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    background: rgb(15, 2, 2);
+    opacity: 1;
+
+}
+
+.price-table .price-box .tex{
+ font-size:20px;
+}
+.price-table .price-box h2{
+ margin:5px 0 15px;
+}
+
+.price-table .price-box p{
+
+ line-height:100px;
+}
+.price-table .price-box p img{
+  width:230px;
+}
+.price-table .price-box ul{
+ line-height:200%;
+ font-size:18px;
+}
+.price-table .price-box a{
+ margin-bottom:5px;
+}
+
+
+
+
+/*  خاص بصندوق المحتوى */
+.log .price-table .price{
+    margin-top:30px;
+    background: rgb(208, 255, 0);
+    opacity: 0.5;
+border-radius:0px  90px  90px 90px ;
+color:rgb(0, 0, 0);
+padding:10px;
+height: 400px;
+}
+.log .price-table .price:hover{
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    background: rgb(15, 2, 2);
+    opacity: 1;
+
+}
+
+
+.log .price-table .price .tex{
+font-size:20px;
+}
+.log .price-table .price h2{
+margin:5px 0 15px;
+}
+
+.log .price-table .price p{
+
+line-height:100px;
+}
+.log .price-table .price p img{
+ width:230px;
+}
+.log .price-table .price ul{
+line-height:200%;
+font-size:18px;
+}
+.log .price-table .price a{
+margin-bottom:5px;
+}
+
+
+ /*   end     section price table      */
+
+
+
+
+
+
+
+
+            /* start      sectin logec  */
+
+            .logec3 {
+                margin-top:20px;
+                width:100%;
+            height: 300px; 
+            font-size:20px; 
+            }
+            .logec3 .c img {
+                margin-right:20px;
+                width:300px;
+                height: 200px; 
+                border-radius:    250px 0  250px  0;
+                border: 6px solid #000
+            }
+            
+            .logec3 .c{
+                float: right;
+                width:35%;
+            
+                margin-right:80px;
+            
+            }
+            .logec3 .cc{
+                text-align: center;
+                float: left;
+            width:50%;
+            margin-bottom: 20px;
+            }
+         
+
+ 
+         /*  start  logec4 */
+         .logec4 {
+            
+             width:100%;
+         height: 200px; 
+         font-size:20px; 
+         }
+      
+         .logec4 .f{
+            margin-bottom: 30px;
+           
+             text-align: center;
+              float: left;
+         width:40%;
+         }
+         .logec4 .f img {
+            margin-right:20px;
+            width:300px;
+            height: 200px; 
+            border-radius:    0 250px  0  250px;
+            border: 6px solid #000
+        }
+         
+         .logec4 .ff{
+            margin-top:40px;
+             margin-bottom: 40px;
+             float: right;
+             margin-right:120px;
+             width:30%;
+             text-align: center;
+         }
+           
+         .logec4  .f  a input[type="button"]{
+         background:rgb(0, 26, 255);
+         margin-left:30%;
+         text-align: center;
+         width:270px;
+         height: 50px;
+         color:#000;
+         border-radius: 50px;
+         }
+          
+         .logec4  .ff  a input[type="button"]{
+             background:rgb(104, 0, 202);
+             margin-right:80%;
+             text-align: center;
+             width:270px;
+             height: 50px;
+             color:#000;
+             border-radius: 50px;
+             
+             }
+
+
+
+.logec1 .aa  a input[type="button"]{
+background:rgb(247, 111, 0);
+width:150px;
+height: 50px;
+color:#000;
+border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+/*  ألصوره التي تحتوي علىال مواقع */
+.log2 {
+
+    background:url('../img/descrip/vbg.jpg') no-repeat center center fixed;
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    text-align: center;
+    width:100%;
+border-radius: 250px 250px  0 0;
+    border: 6px solid #000;
+    margin-top:20px;
+    font-size:15px;
+height: 900px; 
+
+}
+/*   start     section price table   */
+.log2 .price-table 
+{
+    width:100%;
+    
+  padding-top:20px;
+  padding-bottom:40px;
+
+}
+
+/*  خاص بلعنوان */
+.log2 .price-table h1{
+margin-bottom:40px;
+}
+/*  خاص بصندوق المحتوى */
+.log2 .price-table  .price-box{
+
+
+  
+    background: rgb(255, 153, 0);
+    opacity: 0.7;
+    color:#000;
+    height: 400px;
+border-radius:0px  90px  90px 0 ;
+padding:10px;
+
+
+}
+.log2 .price-table .price-box:hover{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    background: rgb(255, 0, 0);
+    opacity: 1;
+
+}
+
+
+.log2 .price-table .price-box .tex{
+font-size:20px;
+}
+.log2 .price-table .price-box h2{
+margin:5px 0 15px;
+}
+
+.log2 .price-table .price-box p{
+
+line-height:100px;
+}
+.log2 .price-table .price-box p img{
+ width:230px;
+}
+.log2 .price-table .price-box ul{
+line-height:200%;
+font-size:18px;
+}
+.log2 .price-table .price-box a{
+margin-bottom:5px;
+}
+
+/*  خاص بصندوق المحتوى */
+.log2 .price-table .price{
+
+    margin-top:30px;
+    border-radius:0px  90px  90px 0 ;
+    padding:10px;
+    background: rgb(255, 153, 0);
+    opacity: 0.7;
+    color:#000;
+    height: 400px;
+   
+    }
+    .log2 .price-table .price:hover{
+        color:rgb(217, 255, 0);
+        font-weight: bold;
+        background: rgb(255, 0, 0);
+        opacity: 1;
+
+    }
+    
+    .log2  .price-table .price .tex{
+    font-size:20px;
+    }
+    .log2  .price-table .price h2{
+    margin:5px 0 15px;
+    }
+    
+    .log2  .price-table .price p{
+    
+    line-height:100px;
+    }
+    .log2  .price-table .price p img{
+     width:230px;
+    }
+    .log2  .price-table .price ul{
+    line-height:200%;
+    font-size:18px;
+    }
+    .log2  .price-table .price a{
+    margin-bottom:5px;
+    }
+    
+    
+     /*   end     section price table      */
+    
+
+
+
+
+  /* end log */
+      /*  end  logec2 */
+      .logec3 {
+        margin-top:20px;
+        width:100%;
+    height: 400px; 
+    font-size:20px; 
+    }
+    .logec3 .c img {
+        margin-right:20px;
+        width:300px;
+        height: 200px; 
+        border-radius:    250px 0  250px  0;
+        border: 6px solid #000
+    }
+    
+    .logec3 .c{
+        float: right;
+        width:35%;
+        margin-right:80px;
+    
+    }
+    .logec3 .cc{
+        text-align: center;
+        
+        float: left;
+    width:50%;
+    }
+    .logec3 .cc  a input[type="button"]{
+    background:rgb(247, 111, 0);
+    width:150px;
+    height: 50px;
+    color:#000;
+    border-radius: 50px;
+    
+    }
+
+            /*  start  logec4 */
+            .logec4 {
+                margin-top:20px;
+                width:100%;
+            height: 400px; 
+            font-size:20px; 
+            }
+            .logec4 .f img {
+                margin-right:20px;
+                width:300px;
+                height: 200px; 
+                border-radius: 0 250px  0  250px;
+                border: 6px solid #000
+            }
+            
+            .logec4 .f{
+               
+                margin-right:80px;
+                 float: left;
+            width:50%;
+            }
+            
+            .logec4 .ff{
+                float: right;
+                width:35%;
+                text-align: center;
+            }
+              
+            .logec4 .ff  a input[type="button"]{
+            background:rgb(247, 111, 0);
+            width:150px;
+            height: 50px;
+            color:#000;
+            border-radius: 50px;
+            
+            }
+
+
+
+              /*  end  logec4*/
+              /*  start logec5 */
+              .logec5{
+                  margin:10px;
+                margin-top:20px;
+                width:100%;
+            height: 400px; 
+            font-size:20px; 
+            }
+            .logec5 .g img {
+               
+                width:300px;
+                height: 200px; 
+                border-radius:    250px 0   0 250px;
+                border: 6px solid #000
+            }
+            
+            .logec5 .g{
+            
+               
+            float: right;
+               width:35%;
+            }
+            .logec5 .gg{
+                float: left;
+                text-align: center;
+                width:50%;
+            }
+            .logec5 .gg  a input[type="button"]{
+            background:rgb(247, 111, 0);
+            width:150px;
+            height: 50px;
+            color:#000;
+            border-radius: 50px;
+            
+            }
+        
+              /*  end  logec5*/
+              /*  start logec5 */
+              .logec6{
+                  margin:10px;
+                margin-top:20px;
+                width:100%;
+            height: 400px; 
+            font-size:20px; 
+            }
+            .logec6 .h img {
+                margin-right:20px;
+                width:300px;
+                height: 200px; 
+                border-radius:    0 250px   250px 0;
+                border: 6px solid #000
+            }
+            
+            .logec6 .h{
+            
+                margin-right:80px;
+            float: left;
+            width:50%;
+            }
+            .logec6 .hh{
+                float: right;
+                text-align: center;
+                width:35%;
+            }
+            .logec6 .hh  a input[type="button"]{
+            background:rgb(247, 111, 0);
+            width:150px;
+            height: 50px;
+            color:#000;
+            border-radius: 50px;
+            
+            }
+        
+              /*  end  logec6*/
+
+

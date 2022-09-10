@@ -1,0 +1,193 @@
+.ferst{
+   /* background:url('../img/12.jpg') no-repeat center center fixed;
+   
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    min-height:600px;
+    */
+
+    margin-top:30px;
+    width:100%;
+    color:rgb(0, 233, 213);
+    background:rgb(0, 0, 161);
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 250px 250px;
+}
+.ferst .regth
+{
+  
+    float: right;
+    width:34%;
+
+}
+.ferst .regth img{
+    margin-top:20px;
+    margin-right: 0px;
+    border-radius: 200px 0 200px 200px;
+     width:90%;
+     height: 400px;
+}
+.ferst .left{
+    margin-top:70px;
+    margin-left:20px;
+    float: left;
+    font-size:30px;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+/* start log */
+    /*n  المواقع التي داخل الصوره */
+
+.log {
+
+
+    text-align: center;
+    width:100%;
+    margin-top:20px;
+font-size:15px;
+
+
+}
+ /*   start     section price table   */
+  .log .price-table
+ {
+     width:100%;
+
+
+ }
+ /*  خاص بلعنوان */
+.log .price-table h1{
+ margin-bottom:20px;
+}
+/*  خاص بصندوق المحتوى */
+
+
+.log .price-table .price-box{
+    margin-top:30px;
+    border:2px solid #103;
+border-radius:0px  90px  90px 90px ;
+color:rgb(0, 0, 0);
+height: 400px; 
+margin-bottom: 30px;
+
+
+
+}
+
+.price-table .price-box .tex{
+ font-size:20px;
+}
+.price-table .price-box h2{
+ margin:5px 0 15px;
+}
+
+.price-table .price-box p{
+
+ line-height:100px;
+}
+.price-table .price-box p img{
+  width:230px;
+}
+.price-table .price-box ul{
+ line-height:200%;
+ font-size:18px;
+}
+.price-table .price-box a{
+ margin-bottom:5px;
+}
+
+
+
+
+/* خاص بصندوق المحتوى  الصف الثاني*/
+.log .price-table .price{
+    margin-top:30px;
+    border:2px solid #103;
+border-radius:0px  90px  90px 90px ;
+color:rgb(0, 0, 0);
+padding:10px;
+height: 400px;
+margin-bottom: 20px;
+
+
+
+}
+
+.log .price-table .price .tex{
+font-size:20px;
+}
+.log .price-table .price h2{
+margin:5px 0 15px;
+}
+
+.log .price-table .price p{
+
+line-height:100px;
+}
+.log .price-table .price p img{
+ width:230px;
+}
+.log .price-table .price ul{
+line-height:200%;
+font-size:18px;
+}
+.log .price-table .price a{
+margin-bottom:5px;
+}
+
+
+
+/*   الصف الثالث    */
+
+/* خاص بصندوق المحتوى  الصف الثاني*/
+.log .price-table .row3{
+    margin-top:30px;
+    border:2px solid #103;
+border-radius:0px  90px  90px 90px ;
+color:rgb(0, 0, 0);
+padding:10px;
+height: 400px;
+margin-bottom: 20px;
+
+
+
+}
+
+.log .price-table .row3 .tex{
+font-size:20px;
+}
+.log .price-table .row3 h2{
+margin:5px 0 15px;
+}
+
+.log .price-table .row3 p{
+
+line-height:100px;
+}
+.log .price-table .row3 p img{
+ width:230px;
+}
+.log .price-table .row3 ul{
+line-height:200%;
+font-size:18px;
+}
+.log .price-table .row3 a{
+margin-bottom:5px;
+
+}
+
+ /*   end     section price table      */
+
+

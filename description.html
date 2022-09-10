@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!--  تستخدم لمتصفح انترنت اكسبلولار -->
+  <meta http-equiv="X-UA-comatible" content="IE=edge">
+  <!--  خاص بل فيرسة موبايل لكي يعمل الموقع على الموبايل -->
+  <meta name=" viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/desstyle.css">
+
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+</head>
+
+<body>
+
+
+
+  <!--start nnavbar-->
+
+  <nav class="navbar navbar-inverse navbar-default  navbar-fixed-top  " role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">ِتعلم<span>.معناء</span></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+          <li><a href="login.html">تسجيل الدخول</a></li>
+          <li><a href="description.html">وصف المواقع</a></li>
+          <li><a href="stdy.html">تعلم</a></li>
+          <li><a href="book.html"> المكاتب </a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">المواقع <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">المكاتب</a></li>
+              <li><a href="#">مواقع تطوير الذات</a></li>
+              <li><a href="stdy.html #se">موقع تعليمية</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html">للاشتراك</a></li>
+              <li class="divider"></li>
+              <li><a href=" index.html #loginlog ">للتواصل مع الفريق </a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left " role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="بحث">
+          </div>
+          <button type="submit" class="btn btn-default">بحث</button>
+        </form>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!--end navbar -->
+  <div class="cotin">
+    <img src="img/descrip/co33.jpg" class="pho">
+  </div>
+  <h1 class="text-center"> وصف للمواقع التحدث عن المواقع </h1>
+
+
+  <section class="logec1">
+    <div class="a">
+      <img src="img/descrip/comp3.jpg">
+    </div>
+    <div class="aa text-center">
+      <p> اكبر مكتبة بلعالم مكتبة الكونغرس حمل ماتريد منهاء <br>
+        الكتب المجانيه وافضل الكتب المصرح بها </p>
+      <a href="http://www.loc.gov"> <input type="button" value="اذهب الى المكتبه "></a>
+    </div>
+  </section>
+
+
+  <section class="logec2">
+    <div class=" b">
+      <img src="img/descrip/co1.jpeg">
+    </div>
+    <div class="bb">
+      <p> هاذه الموقع يعطيك الكرسات <br>التي تودرس على مستوى العالم وسوف تلاقي كرسات من شركات وجامعات </p>
+      <a href="http://www.edx.org"> <input type="button" value="اذهب الى الموقع  "></a>
+    </div>
+  </section>
+
+
+
+  <section class="log">
+
+    <!--   يوضع في داخل الصندوق هاذه مجموعه من المواقع  -->
+    <!-- start   section price table  -->
+    <section class=" price-table text-center">
+      <div class="container">
+
+        <div class="row">
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">البرمجة تعلم</h2>
+              <p class="center-block"> <img src="img/descrip/c1.png" alt="ph"> </p>
+              <div class="tex"> لكي تريد الفهم والتعمق في الدراسات ومناسب لطلاب المرحلة المتوسطة </div>
+              <ul class="list-unstyled">
+
+                <li>udemy: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.udemy.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+
+          <div class="  col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">تصميم مواقع</h2>
+              <p class="center-block"> <img src="img/descrip/c2.jpg" alt="ph"> </p>
+              <!-- list-unstyled   لالغاء الترقيم للقوئم-->
+              <div class="tex"> موقع يقدم محتوى جيد في مجال تصميم المواقع والرمجة الموقع يقدم فم </div>
+              <ul class="list-unstyled">
+                <li>حيث انا الموقع يعطي شهادات باسعار مناسبه </li>
+                <li>codeanywhere: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.teamtreehouse.com" class="btn btn-success">اضغط هنا</a>
+            </div>
+          </div>
+
+
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">اكوادopen-sours</h2>
+              <p class="center-block"> <img src="img/descrip/c3.jpeg" alt="ph"> </p>
+              <!-- list-unstyled   لالغاء الترقيم للقوئم-->
+              <div class="tex">الموقع يحتوي على اكثر من 350 مليون من الملفات الاكواد مفتوحت المصدر </div>
+              <ul class="list-unstyled">
+                <li>codeanywhere: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.codeanywhere.com" class="btn btn-info">اضغط هنا</a>
+            </div>
+          </div>
+
+
+          <!----   الصف الثاني -->
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">وقع مفتوح المصدر</h2>
+              <p class="center-block"> <img src="img/descrip/c4.jpg" alt="ph"> </p>
+              <div class="tex"> هاذه الموقع يضم مجموعه من الاكواد مفتوحة المصدرلا </div>
+              <ul class="list-unstyled">
+                <li>fossdroid: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.fossdroid.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">لتطبيق الاكواد البرمجية</h2>
+              <p class="center-block"> <img src="img/descrip/c5.jpg" alt="ph"> </p>
+              <div class="tex"> موقع لتطبيق البرمجه والخوارزميات وقواعد البيانات عليه</div>
+              <ul class="list-unstyled">
+
+                <li>freecodecamo: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.freecodecamo.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">مواقع بحوث جامعية</h2>
+              <p class="center-block"> <img src="img/descrip/c6.jpg" alt="ph"> </p>
+              <div class="tex"> بعض المواقع للبحث الجامعي </div>
+              <ul class="list-unstyled">
+
+                <li>academic.microsoft: اسم الموقع </li>
+                and base-search.net <br>archive.org<br>core.ac.uk
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.academic.microsoft.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+          <!-- /////////////////////////////////////////////////-->
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">تحويل الصوت</h2>
+              <p class="center-block"> <img src="img/descrip/x4.jpeg" alt="ph"> </p>
+              <div class="tex"> لتحويل الصوت الى نصوص باي لغات برمجة </div>
+              <ul class="list-unstyled">
+
+                <li>dictation: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.dictation.io" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">حل المشاكل </h2>
+              <p class="center-block"> <img src="img/descrip/x5.jpeg" alt="ph"> </p>
+              <div class="tex"> لحل اي مشكله او ايجداد خطوات حل اي مشكله </div>
+              <ul class="list-unstyled">
+
+                <li>wikihow: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.wikihow.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price">
+              <h2 class="text-primary">بديل البرامج</h2>
+              <p class="center-block"> <img src="img/descrip/x6.jpeg" alt="ph"> </p>
+              <div class="tex"> يوفر بدائل لبرامج معينه يعطيك برامج تؤدي عمل برامج معينه </div>
+              <ul class="list-unstyled">
+
+                <li>alterntiveto: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.alterntiveto.net" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+          <!-- /////////////////////////////////////////////////-->
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">البرمجة تعلم</h2>
+              <p class="center-block"> <img src="img/descrip/x1.jpeg" alt="ph"> </p>
+              <!-- list-unstyled   لالغاء الترقيم للقوئم-->
+              <div class="tex">موقع مجانية تقدم كورسات onlin </div>
+              <ul class="list-unstyled">
+
+                <li>khan academy: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.khan academy.com" class="btn btn-primary">اضغط هنا</a>
+            </div>
+          </div>
+
+
+          <div class="  col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">لتحويل امتدادات الملفات</h2>
+              <p class="center-block"> <img src="img/descrip/x2.jpeg" alt="ph"> </p>
+              <!-- list-unstyled   لالغاء الترقيم للقوئم-->
+              <div class="tex"> تحويل امتدادات الملفات من وارد الا بيدي اف او العكس اوز الؤ بور بوينت </div>
+              <ul class="list-unstyled">
+
+                <li>zamzar: اسم الموقع </li>
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.zamzar.com" class="btn btn-success">اضغط هنا</a>
+            </div>
+          </div>
+
+
+
+          <div class=" col-md-4 col-md-6 col-xs-12">
+            <div class="price-box">
+              <h2 class="text-primary">لتعامل مع الصولا</h2>
+              <p class="center-block"> <img src="img/descrip/x3.jpeg" alt="ph"> </p>
+              <!-- list-unstyled   لالغاء الترقيم للقوئم-->
+              <div class="tex">يقوم بحذف خلفية اي صوره</div>
+              <ul class="list-unstyled">
+
+                <li>remove: اسم الموقع </li>
+
+                <li>للذهاب الى الموقع </li>
+              </ul>
+              <a href="www.remove.bg" class="btn btn-info">اضغط هنا</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+  </section>
+
+  <!--
+  <section class="logec3">
+    <div class="c">
+      <img src="img/descrip/co2.jpeg">
+    </div>
+    <div class="cc">
+      <p>
+      <h3>مواقع تصميم جرافيكس</h3>
+      <div>كيف تلخذ التصميممن الموقع غبر freepik.com</div>
+      <div>موقع لاخذ ايقونات منوعه flaticon.com</div>
+      <div>لاستخدام صور جاهزخ vecteezy.com</div>
+      <div>لعمل اطارات للتصميم pngfree.com</div>
+      <div>موقع خاص بتصاميم الرياضيةfootyrenders.com</div>
+      <div> لعمل تصاميم لموقع التواصل الاجتماعيHiclipart.com</div>
+      <div> موقع خاص بلخطوط الانجليزية adobe fonts.com</div>
+      <div> مواقع للخطوط العربية arbfonts.com</div>
+      <div> خاص باختيار الاون color hunt.com</div>
+
+      </p>
+      <a href="http://www.freepik.com"> <input type="button" value="اذهب الى المكتبه "></a>
+    </div>
+  </section>
+-->
+  <!--
+  <section class="logec4">
+    <div class="f">
+      <img src="img/descrip/co3.jpeg">
+    </div>
+    <div class="ff">
+      <p>موقعيوجد فيه دورات وفيديوهات مجانية اكثر من 50 شخص ومن اكبر الجامعات </p>
+      <a href="http://www.academicearth.com"> <input type="button" value="اذهب الى المكتبه "></a>
+    </div>
+  </section>
+-->
+
+
+
+
+  <!--
+  <section class="logec5">
+    <div class=" g">
+      <img src="img/descrip/co6.jpg">
+    </div>
+    <div class="gg">
+      <p> لكي تتعلم التصميم بدون خبرات سابقه ننصحك بهاذه الموقع </p>
+      <a href="http://www.canva.com"> <input type="button" value="اذهب الى المكتبه "></a>
+    </div>
+  </section>
+
+  <section class="logec6">
+    <div class=" h">
+      <img src="img/descrip/co4.jpeg">
+    </div>
+    <div class="hh">
+      <p>
+      <h2>موقع يوجد فيه صور مجانيه عالية الدقه</h2>
+
+      <h3> مواقع خاصه بصور </h3>
+      <div>موقع للحصول على الصور المصغرهه في الفيديوهات التي على الانترنت www.youtube-thumbail-grabbr.com</div>
+      </p>
+      <a href="http://www.pixabay.com"> <input type="button" value="اذهب الى المكتبه "></a>
+    </div>
+  </section>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- start  section footer-->
+  <!-- عباره عن ثلاثة اعمده  العمود الاول الروابط الخاصه بلموقع وتحته يكون المواقع الاجتماعيه-->
+  <!--  العمود الثاني فيه اجزاء من المقالات او اخر المقالات الموجوده في لبموقع -->
+  <!-- العمود الثالث يكون فيه اعمالناء او صور معينه -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-4 col-md-6">
+          <h3> sitemap</h3>
+          <ul class="list-unstyled three-columns">
+            <li>Home</li>
+            <li>About</li>
+            <li>Company</li>
+            <li>Code</li>
+            <li>Design</li>
+            <li>Host</li>
+            <li>Solution</li>
+            <li>Sitemap</li>
+            <li>Conact</li>
+          </ul>
+          <ul class="list-unstyled social-list">
+            <li> <i class=" fa fa-paypal fa-2x "></i></li>
+            <li> <i class=" fa fa-thumbs-up fa-2x "></i> </li>
+            <li><i class=" fa fa-android fa-2x fa-spin"></i></li>
+            <li> <i class=" fa fa-drupal fa-2x fa-spin"></i> </li>
+            <li><i class=" fa fa-html5 fa-2x"></i></li>
+            <li> <i class=" fa fa-whatsapp fa-2x"></i> </li>
+          </ul>
+        </div>
+
+        <div class=" col-lg-4 col-md-6">
+          <h3>litet Articles</h3>
+
+          <div class="media">
+            <a class=" pull-left" href="#">
+              <i class=" fa fa-heartbeat fa-5x"></i>
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">
+                البرمجه
+              </h4>
+              من اهم تخصصات المطورين وهي تعطي لون جميل لتطبيقاتك
+            </div>
+          </div>
+
+          <div class="media">
+            <a class=" pull-left" href="#">
+              <i class=" fa fa-btc fa-5x "></i>
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">
+                التحليل
+              </h4>
+              يحلل ويستنتج النتاج والحلول والمشاكل بشكل جيد
+            </div>
+          </div>
+
+          <div class="media">
+            <a class=" pull-left" href="#">
+              <i class=" fa fa-linux fa-5x"></i>
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">
+                التصميم
+              </h4>
+              من اهم التخصصات في علم التكنلوجيا ويعطي جمال لاعمالك
+            </div>
+          </div>
+
+        </div>
+
+        <div class=" col-lg-4">
+          <h3> our Awesome work</h3>
+          <!-- class="img-thumbnail "   الكلاس التالي يخلي الصورة مصغره -->
+          <img class="img-thumbnail" src="img/img-footer/5.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/6.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/7.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/8.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/9.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/10.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/11.jpg" alt="photo size ">
+          <img class="img-thumbnail" src="img/img-footer/12.jpg" alt="photo size ">
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center">copyright &copy; 2021 <span>your tamplate Name</span>.ALA</div>
+  </section>
+  <!-- end  section  footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
